@@ -37,6 +37,9 @@
     <link rel="stylesheet" href="testCss/style.css">
     <!-- 제이쿼리 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- 마테리얼 아이콘 -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -71,11 +74,12 @@
                         <div class="row d-flex justify-content-center">
                             <div class="col-md-10">
                                 <form class="form-wrap mt-4">
-                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                    <div class="btn-group " role="group" aria-label="Basic example">
                                         <input type="text" placeholder="지역, 식당 또는 음식" class="btn-group1">
-                                        <button type="submit" class="btn-form"><span
-                                                class="icon-magnifier search-icon"></span>검색<i
-                                                class="pe-7s-angle-right"></i></button>
+
+
+                                        <i class="material-icons">search</i>
+                                        <button type="submit" class="btn-form">검색</button>
                                     </div>
                                 </form>
 
@@ -87,8 +91,12 @@
 
             </div>
             <div class="slider-link d-flex justify-content-between" style="margin-bottom: -100px;">
-                <a href="#">Browse Popular</a>
-                <a href="#">Recently Added</a>
+                <div>
+                    <img src="testCss/images/EAT딜.png" alt="img13" style="width: 300px; height: 50px;" />
+                </div>
+                <div>
+                    <img src="testCss/images/AppStore.png" alt="img13" style="" />
+                </div>
             </div>
         </div>
     </section>
@@ -183,7 +191,19 @@
                 </div>
 
             </div>
-        </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+                <li class="list-unstyled">
+                    <i class="material-icons">radio_button_unchecked
+
+                    </i>
+                </li>
+                <li class="list-unstyled">
+                    <i class="material-icons">radio_button_unchecked
+
+                    </i>
+                </li>
+            </div>
         </div>
     </section>
     <!--//END MATZIP LIST -->
@@ -323,10 +343,6 @@
 
     <!--============================= FOOTER =============================-->
     <footer class="main-block dark-bg" id="footers"></footer>
-
-
-
-
 
 
 

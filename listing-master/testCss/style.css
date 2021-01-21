@@ -99,6 +99,10 @@ p {
     color: #fff;
     outline: none; }
 
+.nav-link{
+  padding-top: 15px;
+}
+
 .navbar-light .navbar-toggler {
   color: #fff;
   border-color: #fff; }
@@ -140,21 +144,17 @@ p {
       border: none;
       background: #252a33; } }
 
-.dropdown-menu {
-  background: #030303; }
 
-.dropdown-item {
-  color: #aaaaaa;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; }
-  .dropdown-item:hover {
-    color: #fff;
-    background: none; }
 
 .ti-plus {
   font-size: 14px;
   padding: 0 8px 0 0; }
+
+
+
+  /* End Header */
+
+
 
 .slider {
   background: url(../images/slider.jpg) no-repeat;
@@ -213,35 +213,50 @@ p {
     margin: 0 !important; } }
 
 .btn-group {
-  width: 100%; }
+  width: 90%;
+  height: 50px;
+  position: relative;
+}
+.btn-group i {
+  position: absolute;
+  left: 10px;
+  font-size: 48px;
+}
+
   @media (max-width: 576px) {
     .btn-group {
       display: block; } }
 
 .btn-group1 {
   padding: 24px;
+  padding-left: 70px;
   width: 100%;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+   
   border: none; }
   @media (max-width: 576px) {
     .btn-group1 {
       width: 100%;
-      border-radius: 3px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
       margin: 0 0 10px;
       padding: 17px; } }
 
 
+  /* 검색버튼 */
 .btn-form {
   font-weight: 400;
   font-size: 18px;
   padding: 17px;
+  text-align: center;
+  line-height:20px;
   width: 27%;
   background: #ff3a6d;
   color: #ffffff;
   border: none;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px; }
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; }
   @media (max-width: 768px) {
     .btn-form {
       width: auto; } }
@@ -323,30 +338,22 @@ p {
 
 
 /* ==============================================================
-   ADD LISTING
-   ============================================================== */
-.add-listing-wrap {
-  text-align: center;
-  margin: 0 0 36px; }
-  .add-listing-wrap h2 {
-    font-weight: 300; }
-  .add-listing-wrap p {
-    font-size: 22px;
-    font-weight: 300;
-    color: #737882; }
-
-/* ==============================================================
    FOOTER
    ============================================================== */
 footer {
   position: relative; }
-
 
   .copyright p {
     font-size: 18px;
     font-weight: 400;
     color: #ccc;
     margin: 0; }
+
+    .m-popular-list p{
+      font-size: 17px;
+      font-weight: 400;
+      color: #ccc;
+      margin: 20px; }
 
     .copyright ul li {
       list-style: none;
@@ -358,6 +365,11 @@ footer {
     color: #ccc;
     margin: 15px;
   }
+
+
+hr{
+  background-color: white;
+}
 
 /* ==============================================================
    SUB PAGES
